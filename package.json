@@ -1,0 +1,33 @@
+{
+  "name": "bg-remover",
+  "version": "1.0.0",
+  "description": "Free online AI background remover. Deployed on Netlify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mzh582831041-boop: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@github.com/mzh582831041-boop/bg-remover.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mzh582831041-boop/bg-remover/issues"
+  },
+  "homepage": "https://github.com/mzh582831041-boop/bg-remover#readme",
+  "dependencies": {
+    "@imgly/background-removal": "^1.7.0",
+    "@imgly/background-removal-node": "^1.4.5",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "esbuild": "^0.28.0",
+    "onnxruntime-web": "^1.21.0-dev.20250206-d981b153d3"
+  }
+}
